@@ -5,9 +5,9 @@ using namespace std;
 int main()
 {
     Book book1;
-    book1.setBookDetails("Twilight", "AAAAA", "Alex", true);
+    book1.setBookDetails("Twilight", "12345", "Alex", true);
     Book book2;
-    book2.setBookDetails("Sapiens", "BBBBB", "Camila", true);
+    book2.setBookDetails("Sapiens", "54321", "Camila", true);
     Book book3;
     book3.setBookDetails("Harry Potter", "CCCCC", "Zin Ko", true);
     Book book4;
