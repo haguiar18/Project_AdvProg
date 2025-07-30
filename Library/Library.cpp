@@ -22,14 +22,14 @@ int main()
     array[3] = book4;
     array[4] = book5;
 
-    string isbnToBorrow = "";
-    while (isbnToBorrow != "0") {
+    string bookToBorrow = "";
+    while (bookToBorrow != "0") {
         cout << "Input the book's ISBN you want to borrow: ";
-        cin >> isbnToBorrow;
+        cin >> bookToBorrow;
         
         for (int i = 0; i < 300; i++)
         {
-            if (array[i].isbn == isbnToBorrow) {
+            if (array[i].isbn == bookToBorrow) {
                 if (array[i].borrowBook()) {
                     cout << "Don't forget to return the book: " << array[i].title << endl;
                     break;
